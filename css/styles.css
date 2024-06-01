@@ -6,6 +6,10 @@ nav {
 footer{
     background-color:#ffa500 ;
     color: black;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
 }
 
 html{
