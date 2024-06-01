@@ -1,0 +1,101 @@
+{
+    "hamburguesas": [
+    {
+        "id": 1,
+        "nombre": "Hamburguesa Clásica",
+        "descripcion": "Hamburguesa de res con lechuga, tomate, cebolla y queso cheddar en un pan de sésamo.",
+        "precio": 8000,
+        "disponible": true,
+        "imagen": "clasica.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Hamburguesa BBQ",
+        "descripcion": "Hamburguesa de res con salsa BBQ, tocino, cebolla caramelizada y queso suizo.",
+        "precio": 8000,
+        "disponible": true,
+        "imagen": "bbq.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Hamburguesa Vegetariana",
+        "descripcion": "Hamburguesa de garbanzos con lechuga, tomate, pepino y salsa de yogur en pan integral.",
+        "precio": 10000,
+        "disponible": true,
+        "imagen": "vegetariana.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Hamburguesa Picante",
+        "descripcion": "Hamburguesa de res con jalapeños, salsa chipotle, lechuga y queso pepper jack.",
+        "precio": 9500,
+        "disponible": true,
+        
+        "imagen": "picante.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Hamburguesa de Pollo",
+        "descripcion": "Hamburguesa de pechuga de pollo a la parrilla con lechuga, tomate, y mayonesa en pan de brioche.",
+        "precio": 9000,
+        "disponible": true,
+        "imagen": "pollo.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Hamburguesa de Pescado",
+        "descripcion": "Hamburguesa de filete de pescado empanizado con lechuga, tomate y salsa tártara en pan de centeno.",
+        "precio": 10000,
+        "disponible": false,
+        "imagen": "pescado.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Hamburguesa Mexicana",
+        "descripcion": "Hamburguesa de res con guacamole, jalapeños, pico de gallo y queso Monterey Jack.",
+        "precio": 10000,
+        "disponible": true,
+        "imagen": "mexicana.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Hamburguesa Italiana",
+        "descripcion": "Hamburguesa de res con pepperoni, mozzarella, salsa marinara y albahaca en pan de focaccia.",
+        "precio": 12000,
+        "disponible": true,
+        "imagen": "italiana.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Hamburguesa de Pavo",
+        "descripcion": "Hamburguesa de pavo con lechuga, tomate, cebolla roja y mostaza Dijon en pan integral.",
+        "precio": 10000,
+        "disponible": true,
+        "imagen": "pavo.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Hamburguesa con Champiñones",
+        "descripcion": "Hamburguesa de res con champiñones, cebolla caramelizada y queso en pan de brioche.",
+        "precio": 9000,
+        "disponible": true,
+        "imagen": "champiñiones.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Hamburguesa Hawaiana",
+        "descripcion": "Hamburguesa de res con piña a la parrilla, jamón, lechuga, tomate y queso suizo.",
+        "precio": 10000,
+        "disponible": true,
+        "imagen": "hawaiana.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Hamburguesa de Cordero",
+        "descripcion": "Hamburguesa de cordero con lechuga, tomate, pepino y salsa tzatziki en pan pita.",
+        "precio": 12000,
+        "disponible": true,
+        "imagen": "cordero.jpg"
+        }
+    ]
+}

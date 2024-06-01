@@ -1,0 +1,110 @@
+nav {
+    background-color:#ffa500 ;
+    color: black;
+}
+
+footer{
+    background-color:#ffa500 ;
+    color: black;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.contSlogan{
+    margin-left: 50px ;
+}
+
+.titulo1{
+    color: #ffa500;
+    font-family: "Major Mono Display", monospace;
+    font-size: 150px;
+    /* margin-bottom: 325px; */
+}
+.contInicio{
+    margin-top: 80px;
+}
+
+.tituloPromo{
+    font-family: "Major Mono Display", monospace;
+    color: #ffa500;
+
+}
+
+.subtitulo{
+    font-family: "Rajdhani", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.titulo{
+    font-size: 45px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: lighter;
+}
+
+a{
+    text-decoration: none;
+    color: #bb5502;
+}
+
+.btn-orange {
+    color: #fff;
+    background-color: #f39c12; 
+    border-color: #f39c12; 
+}
+
+.btn-orange:hover {
+    background-color: #e67e22; 
+    border-color: #e67e22; 
+}
+
+.hr{
+    border: 0;
+    height: 2px; 
+    background: linear-gradient(to right, #f39c12, #e67e22); 
+    margin: 20px 0;   
+}
+
+.card{
+    border-color: orange;
+}
+
+.table__productos{
+    display: flex;
+}
+
+.table__productos> img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.table__cantidad > input{
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 16px;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.hamBaño{
+    margin-bottom: 10px;
+}
+
