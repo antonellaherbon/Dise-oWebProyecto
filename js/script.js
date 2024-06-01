@@ -98,6 +98,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const botonesAgregarCarrito = document.getElementsByClassName('agregar-carrito');
             for (let i = 0; i < botonesAgregarCarrito.length; i++) {
                 botonesAgregarCarrito[i].addEventListener('click', function() {
+                    //obtengo los datos que quiero pushear al carrito
+
                     const nombre = this.getAttribute('data-nombre');
                     const precio = parseFloat(this.getAttribute('data-precio'));
                     const imagen = this.getAttribute('data-imagen');
