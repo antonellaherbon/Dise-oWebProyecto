@@ -10,6 +10,7 @@ footer{
     bottom: 0;
     width: 100%;
     margin-top: 20px;
+    position: relative; 
 }
 
 html{
@@ -28,8 +29,8 @@ html{
     color: #ffa500;
     font-family: "Major Mono Display", monospace;
     font-size: 150px;
-    /* margin-bottom: 325px; */
 }
+
 .contInicio{
     margin-top: 80px;
 }
@@ -78,27 +79,6 @@ a{
 
 .card{
     border-color: orange;
-}
-
-.table__productos{
-    display: flex;
-}
-
-.table__productos> img{
-    width: 9rem;
-    object-fit: contain;
-    border-radius: 6px;
-    margin-right: 20px;
-}
-
-.table__cantidad > input{
-    width: 40px;
-    border: none;
-    outline: 0;
-    font-size: 16px;
-    font-weight: 700;
-    margin-right: 30px;
-    margin-bottom: 16px;
 }
 
 .card-img {
