@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const col = document.createElement('div');
                 col.classList.add('col-lg-6', 'mb-4');
                 col.innerHTML = `
-                <div class="card mb-3" style="height:200px;">
+                <div class="card mb-3" >
                     <div class="row no-gutters h-100">
                         <div class="col-md-4">
                             <div class="img-container h-100">
