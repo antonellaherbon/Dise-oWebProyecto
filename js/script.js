@@ -70,7 +70,7 @@ $(document).ready(function() { // el código se ejecute una vez que el documento
         data.hamburguesas.forEach(hamburguesa => {
             const col = $(`
                 <div class="col-lg-6 mb-4">
-                    <div class="card mb-3">
+                    <div class="card mb-3 h-100">
                         <div class="row no-gutters h-100">
                             <div class="col-md-4">
                                 <div class="img-container h-100">
