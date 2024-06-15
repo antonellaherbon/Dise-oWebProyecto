@@ -23,6 +23,48 @@
     <link rel="stylesheet" href="./css/styles.css">
 
     <style>
+        @media (max-width: 576px) {
+        .titulo1 {
+            font-size: 107px;
+        }
+        .contSlogan{
+            margin-left: 0px;
+
+        }
+
+        }
+
+        @media (min-width: 576px) and (max-width: 767px) {
+        .titulo1{
+            font-size: 112px;
+        }
+
+        .contSlogan{
+            margin-left: 1px;
+        }
+        }
+
+        @media (min-width: 768px) and (max-width: 991px){
+            .contSlogan{
+                margin-left: 4px;
+            } 
+        }
+
+        @media (min-width: 992px) and (max-width: 1199px){
+            .titulo1{
+                font-size: 97px;
+            }
+
+            .contSlogan{
+                margin-left: -11px;
+            }
+
+            .subtitulo{
+                margin-left: -8px;
+                font-size: 23px;
+            }
+        }
+
         .card {
             transition: transform 0.3s, background-color 0.3s;
         }
@@ -74,7 +116,7 @@
 
             <div class="col-lg-6 d-flex justify-content-center align-items-center">
                 <div class="contSlogan">
-                    <h1 data-aos="zoom-out-left" class="fs-lg-1 titulo1">Burger City</h1>
+                    <h1 data-aos="zoom-out-left" class="titulo1">Burger City</h1>
                     <h1 data-aos="fade-left" class="titulo">Mas que una hamburguesa, una experiencia</h1>
                     <h2 data-aos="fade-rigth" class="subtitulo">Donde cada mordisco cuenta</h2>
                     <p data-aos="fade-left">Explora nuestro menú <a href="./pages/menu.html">aquí</a></p>
