@@ -74,7 +74,7 @@ $(document).ready(function() { // el código se ejecute una vez que el documento
                         <div class="row no-gutters h-100">
                             <div class="col-md-4">
                                 <div class="img-container h-100">
-                                    <img src="../assets/${hamburguesa.imagen}" class="card-img" alt="...">
+                                    <img src="../assets/${hamburguesa.imagen}" class="card-img" loading="lazy" alt="hamburguesa">
                                 </div>
                             </div>
                             <div class="col-md-8">
