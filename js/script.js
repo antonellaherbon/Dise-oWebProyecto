@@ -121,4 +121,14 @@ $(document).ready(function() { // el código se ejecute una vez que el documento
     }).fail(function(error) {
         console.error('Error al cargar el JSON:', error);
     });
+
+    $('#hacerse-socio').click(function(e){
+        e.preventDefault(); 
+        Swal.fire({
+            icon: 'success',
+            title: 'Gracias por hacerte socio de Burger City',
+            showConfirmButton: false,
+            timer: 1500
+        })
+    });
 });
