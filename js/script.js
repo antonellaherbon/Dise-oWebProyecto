@@ -129,6 +129,11 @@ $(document).ready(function() { // el código se ejecute una vez que el documento
             title: 'Gracias por hacerte socio de Burger City',
             showConfirmButton: false,
             timer: 1500
-        })
+        });
+
+        //limpiar los campos
+        $('#exampleInputNombre').val('');
+        $('#exampleInputEmail1').val('');
+        $('#exampleInputTelefono').val('');
     });
 });
